@@ -1,4 +1,4 @@
 # Maching-Learning
 Use TensorFlow and openCV
 
-I try to creat that can auto driver Euro Truck Simulator2
+I try to creat python code that can auto driver at Euro Truck Simulator2

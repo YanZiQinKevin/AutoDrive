@@ -14,9 +14,9 @@ control part: Use win32 api to control keyboard, which self play Euro Truck Simu
 
 Trace the traffic-line part (openCV):
 
-  1, transfer original image to gray  cv2.COLOR_BGR2GRAY
-  
-  2, than Canny due with the image:
+1, transfer original image to gray  cv2.COLOR_BGR2GRAY
+  
+2, than Canny due with the image:
   ![Canny](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_Canny.png)
   作用是勾勒路线的轮廓
   

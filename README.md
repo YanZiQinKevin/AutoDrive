@@ -14,9 +14,9 @@ control part: Use win32 api to control keyboard, which self play Euro Truck Simu
 
 Trace the traffic-line part (openCV):
 
-1, transfer original image to gray  cv2.COLOR_BGR2GRAY
-  
-2, than Canny due with the image:
+  1, transfer original image to gray  cv2.COLOR_BGR2GRAY
+  
+  2, than Canny due with the image:
   ![Canny](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_Canny.png)
   作用是勾勒路线的轮廓
   
@@ -24,3 +24,11 @@ Trace the traffic-line part (openCV):
          原理是计算条线之间的空隙。而实线比较好处理。
          ![enter image description here](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_line.png)
    
+ 4， Use two lines to figure out "Turn", and the signal will call  win32 to keyboard.
+
+
+二， Use TensorFlow to recognized front of view, such as Car or Traffic_light. 
+      This part follow the :[object_detection](https://github.com/YanZiQinKevin/object_detection)
+		
+Problem： 通过CNN训练模型，但还是未能解决 红绿信号识别的问题。 
+![enter image description here](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_trafficlight.png)

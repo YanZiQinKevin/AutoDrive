@@ -34,5 +34,5 @@ Trace the traffic-line part (openCV):
 二， Use TensorFlow to recognized front of view, such as Car or Traffic_light. 
       This part follow the :[object_detection](https://github.com/YanZiQinKevin/object_detection)
 		
-Problem： 通过CNN训练模型，但还是未能解决 红绿信号识别的问题。 
+Problem： 通过CNN训练模型，但还是未能解决红绿灯信号识别的问题，打算用openCV做颜色归纳
 ![enter image description here](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_light.png)

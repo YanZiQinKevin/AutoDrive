@@ -15,9 +15,10 @@ view system for avoiding vehicle：
 
 
 #Implementation:
-control part: Use win32 api to control keyboard, which self play Euro Truck Simulator2.
 
-Trace the traffic-line part (openCV):
+Control part: Use win32 api to control keyboard, which self play Euro Truck Simulator2.
+
+Trace the traffic-line part： (openCV):
 
   1, transfer original image to gray  cv2.COLOR_BGR2GRAY
   

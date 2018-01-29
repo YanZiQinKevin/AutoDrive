@@ -9,11 +9,12 @@ Self_ driving at Euro Truck Simulator2
  -----《欧洲卡车模拟2》
 screenshoot views (trace the traffic-line):
 ![screenshoot](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/476419097427111374.jpg)
-view system for avoiding vehicle
+
+view system for avoiding vehicle：
 ![number "0.5" means distance](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/547439799077907042.jpg)
 
 
-Implementation:
+#Implementation:
 control part: Use win32 api to control keyboard, which self play Euro Truck Simulator2.
 
 Trace the traffic-line part (openCV):

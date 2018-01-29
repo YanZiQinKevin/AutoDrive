@@ -1,6 +1,7 @@
 # AutoDrive
 Use TensorFlow and openCV 
- !semi-finished product!
+模拟自动驾驶
+semi-finished product!
  Self_ driving at Euro Truck Simulator2
  -----《欧洲卡车模拟2》
 screenshoot views (trace the traffic-line):
@@ -31,4 +32,4 @@ Trace the traffic-line part (openCV):
       This part follow the :[object_detection](https://github.com/YanZiQinKevin/object_detection)
 		
 Problem： 通过CNN训练模型，但还是未能解决 红绿信号识别的问题。 
-![enter image description here](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_trafficlight.png)
+![enter image description here](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_light.png)

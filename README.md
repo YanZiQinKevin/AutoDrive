@@ -37,4 +37,6 @@ Trace the traffic-line part： (openCV):
       This part based on  :[object_detection](https://github.com/YanZiQinKevin/object_detection)
 		
 Problem： 通过CNN训练模型，但还是未能解决红绿灯信号识别的问题，打算用openCV做颜色归纳
-![enter image description here](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_light.png)
+![enter image description here](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/truck_light.png)  
+行人检测
+![enter image description here](https://github.com/YanZiQinKevin/AutoDrive/blob/master/screenshoot/WechatIMG60.jpeg)

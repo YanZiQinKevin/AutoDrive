@@ -5,6 +5,9 @@ Use TensorFlow and openCV
 
 semi-finished product!
 
+PS: 现实模式：https://github.com/YanZiQinKevin/object_detection/blob/master/README.md  
+
+
 Self_ driving at Euro Truck Simulator2
  -----《欧洲卡车模拟2》
 screenshoot views (trace the traffic-line):
